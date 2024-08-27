@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">rn_test</string>
+    <!-- <string name="app_name">rn_test</string> -->
+    <string name="appCenterAnalytics_whenToEnableAnalytics">SEND_ON_START</string>
+    <string name="appCenterCrashes_whenToSendCrashes">SEND_ALWAYS</string>
+    <!-- <string moduleConfig="true" name="CodePushDeploymentKey">ZXAiyu65Xk3mwKIAEDq-IBi_96VWPY-0BFQ1q</string> -->
 </resources>
