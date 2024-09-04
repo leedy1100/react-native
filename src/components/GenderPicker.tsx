@@ -23,7 +23,6 @@ const GenderPicker = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.label}>성별:</Text>
       <TouchableOpacity style={styles.dropdownButton} onPress={toggleDropdown}>
         <Text
           style={[

@@ -26,7 +26,6 @@ const Home = ({ navigation }: Props) => {
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
         style={styles.backgroundStyle}>
-        <Text>Home Screen</Text>
         <View style={styles.container}>
           <TouchableOpacity
             style={styles.button}
@@ -113,7 +112,7 @@ const styles = StyleSheet.create({
   },
   button: {
     width: windowWidth * 0.5,
-    backgroundColor: '#5c7cfa',
+    backgroundColor: '#94d82d',
     padding: 10,
     borderRadius: 5,
     alignItems: 'center',
