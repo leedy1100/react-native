@@ -94,6 +94,17 @@ const Home = ({ navigation }: Props) => {
             <Text style={styles.buttonText}>Go to Letthinggo</Text>
           </TouchableOpacity>
         </View>
+        <View style={styles.container}>
+          <TouchableOpacity
+            style={styles.button}
+            onPress={() =>
+              navigation.navigate('WebScreen', {
+                url: 'https://dev.evix-dct.com',
+              })
+            }>
+            <Text style={styles.buttonText}>Go to evix-dct</Text>
+          </TouchableOpacity>
+        </View>
         <GenderPicker />
       </ScrollView>
     </SafeAreaView>

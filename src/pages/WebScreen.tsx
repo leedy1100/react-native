@@ -43,6 +43,8 @@ const WebScreen = ({ route }: Props) => {
         ref={webViewRef}
         source={{ uri: url }}
         onNavigationStateChange={handleNavigationStateChange}
+        allowsBackForwardNavigationGestures={true}
+
       />
     </SafeAreaView>
   );
